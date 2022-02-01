@@ -1,0 +1,36 @@
+.c-input {
+  background-color: $primary;
+  border: 2px solid $white;
+  border-radius: $border-radius * 2;
+  color: $white;
+  margin-bottom: $grid-base * 2.1;
+  font-size: $font-size-5;
+  font-weight: 400;
+  line-height: $line-height-base;
+  outline: none;
+  padding: 1rem 1.25rem;
+  width: 100%;
+
+  &:focus {
+    border: 2px solid $green;
+  }
+
+  &::placeholder {
+    color: $white;
+  }
+
+  &::-moz-placeholder {
+    color: $white;
+    opacity: 1;
+  }
+
+  &:-ms-placeholder {
+    color: $white;
+  }
+
+  &__appo--large {
+    font-family: inherit;
+    resize: none;
+    width: 100%;
+  }
+}

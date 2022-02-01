@@ -1,0 +1,93 @@
+.c-btn {
+  font-family: $font-family-1;
+  font-size: $font-size-10;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: relative;
+  align-items: baseline;
+
+  &__primary {
+    background-color: $primary;
+    color: $white;
+
+    &--regular {
+      padding: $grid-base * 2 $grid-base * 4;
+      max-width: 187px;
+      max-height: 56px;
+    }
+    &--small {
+      padding: $grid-base * 1.5 $grid-base * 3;
+      max-width: 167px;
+      max-height: 46px;
+    }
+    &:hover {
+      background-color: $white;
+      color: $primary;
+      transition-duration: 0.5s;
+      text-decoration: none;
+      border: solid 2px $primary;
+    }
+  }
+
+  &__secondary {
+    background-color: $white;
+    color: $primary;
+
+    &--regular {
+      padding: $grid-base * 2 $grid-base * 4;
+      max-width: 185px;
+      max-height: 56px;
+      border: solid 3px $primary;
+    }
+    &--small {
+      padding: $grid-base * 1.5 $grid-base * 3;
+      max-width: 165px;
+      max-height: 46px;
+      border: solid 2px $primary;
+    }
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+      transition-duration: 0.5s;
+      text-decoration: none;
+    }
+  }
+
+  &__tertiary {
+    color: $primary;
+    max-width: 137px;
+    max-height: 16px;
+    position: relative;
+
+    &--small {
+      max-width: 173px;
+      max-height: 24px;
+      flex-direction: row;
+      text-align: left;
+      margin-top: 10px;
+    }
+
+    img {
+      max-width: 18%;
+      position: absolute;
+      top: -2px;
+      right: -30px;
+    }
+
+    &:hover {
+      color: $primary;
+      text-decoration-color: $primary;
+    }
+  }
+
+  //&:hover {
+  //background-color: $cta-1;
+  //color: $white;
+  //text-decoration: none;
+  //transition-duration: 0.5s;
+  //}
+}

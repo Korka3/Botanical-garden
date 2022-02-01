@@ -1,0 +1,42 @@
+// Kolory
+$white: #ffffff;
+$text: #414840;
+$header-text: #343d33;
+$primary: #475f45;
+$gray-light: #e4e4e4;
+$gray-dark: #666;
+
+// Tekst
+$font-size-base: 1rem;
+$font-size-1: $font-size-base * 3.563; // ~57px
+$font-size-2: $font-size-base * 2.813; // ~45px
+$font-size-3: $font-size-base * 2.188; // ~34px
+$font-size-4: $font-size-base * 1.563; // ~25px
+$font-size-5: $font-size-base * 1.438; // ~23px
+$font-size-6: $font-size-base * 1.375; //22px
+$font-size-7: $font-size-base * 1.25; //20px
+$font-size-9: $font-size-base * 1; //16px
+$font-size-10: $font-size-base * 0.875; //14
+
+$font-family-1: "Roboto"; //body, buttons
+$font-family-2: "Libre Baskerville"; //headings
+
+$line-height-base: 1.875; // 30px
+$line-height-sm: 1.25; // 20px
+$line-height-smb: 1; //16px
+$line-height-lgb: 2.063; //33px
+$line-height-lg: 2.344; //37.5px
+
+$letter-spacing-condensed: -0.1rem;
+$letter-spacing-1: 0.0625rem;
+
+// Siatka
+$grid-base: 10px;
+$gutter: $grid-base * 1.5;
+
+// Zaokroglenia
+$border-radius: $grid-base * 0.5;
+
+// Breakpoint
+$bp-tablet: "744px";
+$bp-desktop: "1400px";

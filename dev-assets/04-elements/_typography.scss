@@ -1,0 +1,28 @@
+p {
+  color: $text;
+  font-size: $font-size-9;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  margin: 0;
+  margin-bottom: $grid-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: $font-size-5;
+  line-height: $line-height-sm;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: $gray-dark;
+    text-decoration: underline;
+  }
+}

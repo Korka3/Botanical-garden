@@ -1,0 +1,29 @@
+.u-flex-start {
+  align-items: flex-start; //wyrównanie do góry
+}
+
+.u-flex-end {
+  justify-content: flex-end; //wyrównanie do prawej
+}
+
+.u-flex-space-between {
+  justify-content: space-between; //wyrównuje element jeden do prawej drugi do lewej strony
+}
+
+.u-flex-center {
+  justify-content: center;
+}
+
+.u-flex-stretch {
+  align-items: stretch; //wyrównuje wysokość elementów
+}
+
+.u-flex-grow {
+  &--1 {
+    flex-grow: 1; //np proporcjonlana maksymalna szerokośc kolumny x1  x2 itd
+  }
+
+  &--2 {
+    flex-grow: 2;
+  }
+}
