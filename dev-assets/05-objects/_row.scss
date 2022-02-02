@@ -1,23 +1,14 @@
-//.o-row {
-// display: flex;
-//margin-left: -$gutter;
-//margin-right: -$gutter;
+.o-row {
+  display: flex;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
 
-//@include medium-up {
-//  flex-direction: row;
-// }
+  &--center-y {
+    align-items: center;
+  }
 
-//&--center-y {
-//  align-items: center;
-//}
-
-// &--gutter-0 {
-//  margin-left: $gutter * 0;
-//   margin-right: $gutter * 0;
-
-//   .o-col {
-//   padding-left: 0;
-//   padding-right: 0;
-// }
-//}
-//}
+  &--gutter-0 {
+    margin-left: $gutter * 0;
+    margin-right: $gutter * 0;
+  }
+}
