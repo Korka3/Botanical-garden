@@ -1,0 +1,24 @@
+.c-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: normal;
+
+  &--level1 {
+    color: $header-text;
+    font-family: $font-family-2;
+    font-size: $font-size-3;
+    line-height: 110%;
+    margin-bottom: $grid-base * 1.6;
+
+    @include tablet {
+      font-size: $font-size-2;
+      margin-bottom: $grid-base * 2.4;
+    }
+
+    @include desktop {
+      font-size: $font-size-1;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+  }
+}
