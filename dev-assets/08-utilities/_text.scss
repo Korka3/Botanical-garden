@@ -16,6 +16,12 @@
   }
 }
 
+.u-text-dt-left {
+  @include desktop {
+    text-align: left;
+  }
+}
+
 //.u-text-top {
 // text-align: top;
 //}

@@ -9,6 +9,7 @@
   white-space: nowrap;
   position: relative;
   align-items: baseline;
+  margin-bottom: $grid-base;
 
   &__primary,
   &__secondary {
@@ -22,6 +23,7 @@
       min-width: 185px;
       min-height: 56px;
       border: solid 3px $primary;
+      margin-bottom: 0;
     }
   }
 

@@ -2,6 +2,16 @@
   align-items: flex-start; //wyrównanie do góry
 }
 
+.u-flex-start--content {
+  justify-content: flex-start;
+
+  &-desktop {
+    @include desktop {
+      justify-content: flex-start;
+    }
+  }
+}
+
 .u-flex-end {
   justify-content: flex-end; //wyrównanie do prawej
 }

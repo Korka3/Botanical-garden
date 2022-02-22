@@ -1,14 +1,16 @@
 .o-row {
-  display: flex;
-  margin-left: -$gutter;
-  margin-right: -$gutter;
+  @include tablet {
+    display: flex;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
 
-  &--center-y {
-    align-items: center;
-  }
+    &--center-y {
+      align-items: center;
+    }
 
-  &--gutter-0 {
-    margin-left: $gutter * 0;
-    margin-right: $gutter * 0;
+    &--gutter-0 {
+      margin-left: $gutter * 0;
+      margin-right: $gutter * 0;
+    }
   }
 }

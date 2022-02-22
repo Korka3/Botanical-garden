@@ -7,8 +7,21 @@
     padding: 0;
   }
 
+  &--gt-no-padding {
+    @include desktop {
+      padding: 0;
+    }
+  }
+
   &--dt50 {
     @include desktop {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  &--tb50 {
+    @include tablet {
       flex: 0 0 50%;
       max-width: 50%;
     }
