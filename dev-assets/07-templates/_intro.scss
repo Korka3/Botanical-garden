@@ -26,10 +26,11 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 100%;
+    width: 80%;
 
     @include desktop {
       margin-top: none;
+      margin-right: 0;
     }
   }
 }
