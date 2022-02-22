@@ -10,6 +10,12 @@
   text-align: left;
 }
 
+.u-text-dt-center {
+  @include desktop {
+    text-align: center;
+  }
+}
+
 //.u-text-top {
 // text-align: top;
 //}

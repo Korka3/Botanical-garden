@@ -1,4 +1,9 @@
 .t-intro {
+  &__text {
+    text-align: center;
+    padding-bottom: $grid-base * 2;
+  }
+
   p {
     font-family: $font-family-1;
     font-size: $font-size-7;
@@ -12,6 +17,19 @@
     @include desktop {
       font-size: $font-size-6;
       text-align: left;
+    }
+  }
+
+  img {
+    display: block;
+    margin-top: $grid-base * 3;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+
+    @include desktop {
+      margin-top: none;
     }
   }
 }

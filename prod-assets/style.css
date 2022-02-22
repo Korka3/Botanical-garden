@@ -52,6 +52,12 @@ a:hover {
 .o-col--no-padding {
   padding: 0;
 }
+@media (min-width: 1400px) {
+  .o-col--dt50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
 
 .o-container {
   margin-left: auto;
@@ -85,6 +91,7 @@ a:hover {
 }
 
 .c-btn {
+  display: inline-block;
   font-family: "Roboto";
   font-size: 0.875rem;
   font-weight: 700;
@@ -95,44 +102,33 @@ a:hover {
   position: relative;
   align-items: baseline;
 }
+.c-btn__primary, .c-btn__secondary {
+  padding: 13px 28px;
+  min-width: 167px;
+  min-height: 46px;
+  border: solid 2px #475f45;
+}
+@media (min-width: 744px) {
+  .c-btn__primary, .c-btn__secondary {
+    padding: 20px 40px;
+    min-width: 185px;
+    min-height: 56px;
+    border: solid 3px #475f45;
+  }
+}
 .c-btn__primary {
   background-color: #475f45;
   color: #ffffff;
-}
-.c-btn__primary--regular {
-  padding: 17px 37px;
-  max-width: 187px;
-  max-height: 56px;
-  border: solid 3px #475f45;
-}
-.c-btn__primary--small {
-  padding: 13px 28px;
-  max-width: 167px;
-  max-height: 46px;
-  border: solid 2px #475f45;
 }
 .c-btn__primary:hover {
   background-color: #ffffff;
   color: #475f45;
   transition-duration: 0.5s;
   text-decoration: none;
-  border-color: #475f45;
 }
 .c-btn__secondary {
   background-color: #ffffff;
   color: #475f45;
-}
-.c-btn__secondary--regular {
-  padding: 20px 40px;
-  max-width: 185px;
-  max-height: 56px;
-  border: solid 3px #475f45;
-}
-.c-btn__secondary--small {
-  padding: 15px 30px;
-  max-width: 165px;
-  max-height: 46px;
-  border: solid 2px #475f45;
 }
 .c-btn__secondary:hover {
   background-color: #475f45;
@@ -142,22 +138,30 @@ a:hover {
 }
 .c-btn__tertiary {
   color: #475f45;
-  max-width: 137px;
-  max-height: 16px;
+  min-width: 137px;
+  min-height: 16px;
   position: relative;
 }
-.c-btn__tertiary--small {
-  max-width: 173px;
-  max-height: 24px;
-  flex-direction: row;
-  text-align: left;
-  margin-top: 10px;
+@media (min-width: 744px) {
+  .c-btn__tertiary {
+    min-width: 173px;
+    min-height: 24px;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 10px;
+  }
 }
 .c-btn__tertiary img {
+  display: none;
   max-width: 18%;
   position: absolute;
   top: -2px;
   right: -30px;
+}
+@media (min-width: 744px) {
+  .c-btn__tertiary img {
+    display: inline-block;
+  }
 }
 .c-btn__tertiary:hover {
   color: #475f45;
@@ -199,6 +203,10 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.t-intro__text {
+  text-align: center;
+  padding-bottom: 20px;
+}
 .t-intro p {
   font-family: "Roboto";
   font-size: 1.25rem;
@@ -215,6 +223,19 @@ a:hover {
   .t-intro p {
     font-size: 1.375rem;
     text-align: left;
+  }
+}
+.t-intro img {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 1400px) {
+  .t-intro img {
+    margin-top: none;
   }
 }
 
@@ -257,6 +278,23 @@ a:hover {
   flex-grow: 2;
 }
 
+.u-flex-direction--column {
+  flex-direction: column;
+}
+.u-flex-direction--row {
+  flex-direction: row;
+}
+@media (min-width: 1400px) {
+  .u-flex-direction-desktop--column {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1400px) {
+  .u-flex-direction-desktop--row {
+    flex-direction: row;
+  }
+}
+
 .u-overflow-h {
   overflow: hidden;
 }
@@ -271,6 +309,12 @@ a:hover {
 
 .u-text-left {
   text-align: left;
+}
+
+@media (min-width: 1400px) {
+  .u-text-dt-center {
+    text-align: center;
+  }
 }
 
 .u-text-uppercase {
