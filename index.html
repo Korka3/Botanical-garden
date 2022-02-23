@@ -21,7 +21,7 @@
 <body>
   <section class="t-site-header">
     <div class="o-container">
-      <div class="o-row  o-row__constant u-flex-space-between">
+      <div class="o-row  u-flex-space-between">
         <div class="o-col o-col--4 o-col">
           <img src="images/logo_svg.svg" alt="logo">
 
@@ -37,11 +37,12 @@
 
   <section class="t-intro">
     <div class="o-container">
-      <div class="o-row o-row--center-y u-flex-direction--column u-flex-direction-desktop--row">
+      <div class="o-row-dt o-row--center-y u-flex-direction--column u-flex-direction-desktop--row">
         <div class="o-col o-col--dt50">
           <h1 class="c-heading c-heading--level1">A beatiful adventure awaits</h1>
           <p class="t-intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>
-          <div class=" o-row o-row-center--y u-text-center u-text-dt-left">
+          <div class="o-row-tb o-row-center--y u-text-center u-text-dt-left">
+            <!--wiersz przycisków-->
             <div class="o-col o-col--tb50">
               <a class="c-btn c-btn__primary c-btn__primary--small" href="#">Buy tickets</a>
             </div>
@@ -52,6 +53,7 @@
         </div>
 
         <div class="o-col o-col--dt50">
+          <!--kolumna druga na stronie-->
 
           <img src="images/intro_image.png" alt="fotografia">
         </div>
@@ -63,16 +65,16 @@
 
   <section class="t-main">
     <div class="o-container u-flex-direction--column">
-      <div class="u-flex-direction-desktop--row o-row center--y u-text-center">
-        <div class="o-col o-col--dt50">
-          kolumna 1 zdjecie to samo wszedzie
+      <div class="u-flex-direction-desktop--row u-text-center u-flex-column-wrap-desktop">
+        <div class="o-col--dt50">
+          <img class="t-main__img" src="images/main_plants.png" alt="fotografia">
 
         </div>
 
         <div>
-          <img class="t-main__img u-flex-column-wrap-desktop" src="images/main_plants2.png" alt="fotografia">
+          <img class="t-main__img " src="images/main_plants2.png" alt="fotografia">
         </div>
-        <div class="o-col o-col--dt50 u-text-tb-left">
+        <div class="o-col--dt50 u-text-tb-left">
           <h2 class="c-heading c-heading--level1 u-white">Discover yourself with nature</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit
             amet, consectetur adipiscing elit. Tincidunt facilisis nunc</p>

@@ -4,6 +4,7 @@
   margin-bottom: $grid-base * 4.5;
   padding-top: $grid-base * 4.5;
   padding-bottom: $grid-base * 6.5;
+  position: relative;
 
   @include tablet {
     margin-top: $grid-base * 9;

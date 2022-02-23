@@ -1,22 +1,30 @@
 .o-row {
-  @include tablet {
-    display: flex;
-    margin-left: -$gutter;
-    margin-right: -$gutter;
+  display: flex;
+  margin-left: -$gutter;
+  margin-right: -$gutter;
 
-    &--center-y {
-      align-items: center;
-    }
+  &--center-y {
+    align-items: center;
+  }
 
-    &--gutter-0 {
-      margin-left: $gutter * 0;
-      margin-right: $gutter * 0;
+  &--gutter-0 {
+    margin-left: $gutter * 0;
+    margin-right: $gutter * 0;
+  }
+
+  &-tb {
+    @include tablet {
+      display: flex;
+      margin-left: -$gutter;
+      margin-right: -$gutter;
     }
   }
 
-  &__constant {
-    display: flex;
-    margin-left: -$gutter;
-    margin-right: -$gutter;
+  &-dt {
+    @include desktop {
+      display: flex;
+      margin-left: -$gutter;
+      margin-right: -$gutter;
+    }
   }
 }
