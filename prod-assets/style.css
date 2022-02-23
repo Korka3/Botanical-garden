@@ -6,7 +6,7 @@ body {
   background-color: #e4e4e4;
   color: #666;
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 0.875rem;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@ img {
 
 p {
   color: #414840;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.15px;
@@ -211,6 +211,7 @@ a:hover {
   text-align: center;
   text-transform: capitalize;
   font-weight: 400;
+  letter-spacing: 0.0625rem;
 }
 .c-heading--level1 {
   color: #343d33;
@@ -301,6 +302,19 @@ a:hover {
     margin-bottom: 100px;
     padding-top: 70px;
     padding-bottom: 105px;
+  }
+}
+.t-main__img {
+  margin-bottom: 16px;
+}
+.t-main p {
+  font-size: 1rem;
+  line-height: 24px;
+}
+@media (min-width: 744px) {
+  .t-main p {
+    font-size: 1.25rem;
+    line-height: 30px;
   }
 }
 

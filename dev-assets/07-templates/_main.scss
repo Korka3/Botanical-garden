@@ -19,4 +19,18 @@
     padding-top: $grid-base * 7;
     padding-bottom: $grid-base * 10.5;
   }
+
+  &__img {
+    margin-bottom: $grid-base * 1.6;
+  }
+
+  p {
+    font-size: $font-size-8;
+    line-height: $grid-base * 2.4;
+
+    @include tablet {
+      font-size: $font-size-7;
+      line-height: $grid-base * 3;
+    }
+  }
 }
