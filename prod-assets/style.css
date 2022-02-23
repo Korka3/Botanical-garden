@@ -69,6 +69,18 @@ a:hover {
     max-width: 50%;
   }
 }
+.o-col--3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.o-col--4 {
+  flex: 0 0 33%;
+  max-width: 33%;
+}
+.o-col--9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
 
 .o-container {
   margin-left: auto;
@@ -101,6 +113,11 @@ a:hover {
     margin-left: 0px;
     margin-right: 0px;
   }
+}
+.o-row__constant {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .c-btn {

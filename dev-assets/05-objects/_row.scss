@@ -13,4 +13,10 @@
       margin-right: $gutter * 0;
     }
   }
+
+  &__constant {
+    display: flex;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
 }

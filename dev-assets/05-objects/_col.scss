@@ -27,12 +27,20 @@
     }
   }
 
-  // &--md25 {
-  //   @include medium-up {
-  //    flex: 0 0 25%;
-  //    max-width: 25%;
-  //  }
-  // }
+  &--3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  &--4 {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  &--9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
 
   //&--md33 {
   //  @include medium-up {
