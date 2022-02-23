@@ -61,3 +61,12 @@
     }
   }
 }
+.u-flex-column-wrap {
+  flex-flow: column wrap;
+
+  &-desktop {
+    @include desktop {
+      flex-flow: column wrap;
+    }
+  }
+}

@@ -22,6 +22,12 @@
   }
 }
 
+.u-text-tb-left {
+  @include tablet {
+    text-align: left;
+  }
+}
+
 //.u-text-top {
 // text-align: top;
 //}

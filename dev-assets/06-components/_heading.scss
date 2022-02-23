@@ -1,14 +1,14 @@
 .c-heading {
   text-align: center;
   text-transform: capitalize;
-  font-weight: normal;
+  font-weight: 400;
 
   &--level1 {
     color: $header-text;
     font-family: $font-family-2;
     font-size: $font-size-3;
     line-height: 110%;
-    margin-bottom: $grid-base * 1.6;
+    margin-bottom: $grid-base * 2;
 
     @include tablet {
       font-size: $font-size-2;
@@ -17,7 +17,7 @@
 
     @include desktop {
       font-size: $font-size-1;
-      margin-bottom: 16px;
+      margin-bottom: $grid-base * 1.6;
       text-align: left;
     }
   }

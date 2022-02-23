@@ -203,14 +203,14 @@ a:hover {
 .c-heading {
   text-align: center;
   text-transform: capitalize;
-  font-weight: normal;
+  font-weight: 400;
 }
 .c-heading--level1 {
   color: #343d33;
   font-family: "Libre Baskerville";
   font-size: 2.188rem;
   line-height: 110%;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 @media (min-width: 744px) {
   .c-heading--level1 {
@@ -269,6 +269,30 @@ a:hover {
   .t-intro img {
     margin-top: none;
     margin-right: 0;
+  }
+}
+
+.t-main {
+  background-color: #343d33;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+@media (min-width: 744px) {
+  .t-main {
+    margin-top: 90px;
+    margin-bottom: 55px;
+    padding-top: 96px;
+    padding-bottom: 88px;
+  }
+}
+@media (min-width: 1400px) {
+  .t-main {
+    margin-top: 170px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 105px;
   }
 }
 
@@ -337,6 +361,15 @@ a:hover {
   }
 }
 
+.u-flex-column-wrap {
+  flex-flow: column wrap;
+}
+@media (min-width: 1400px) {
+  .u-flex-column-wrap-desktop {
+    flex-flow: column wrap;
+  }
+}
+
 .u-overflow-h {
   overflow: hidden;
 }
@@ -361,6 +394,12 @@ a:hover {
 
 @media (min-width: 1400px) {
   .u-text-dt-left {
+    text-align: left;
+  }
+}
+
+@media (min-width: 744px) {
+  .u-text-tb-left {
     text-align: left;
   }
 }
