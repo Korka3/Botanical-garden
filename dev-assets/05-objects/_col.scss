@@ -7,7 +7,7 @@
     padding: 0;
   }
 
-  &--gt-no-padding {
+  &--dt-no-padding {
     @include desktop {
       padding: 0;
     }
@@ -20,10 +20,24 @@
     }
   }
 
+  &--dt55 {
+    @include desktop {
+      flex: 0 0 57%;
+      max-width: 57%;
+    }
+  }
+
   &--tb50 {
     @include tablet {
       flex: 0 0 50%;
       max-width: 50%;
+    }
+  }
+
+  &--dt45 {
+    @include desktop {
+      flex: 0 0 43%;
+      max-width: 43%;
     }
   }
 
@@ -32,9 +46,28 @@
     max-width: 25%;
   }
 
+  &--dt3 {
+    @include desktop {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
   &--4 {
     flex: 0 0 33%;
     max-width: 33%;
+  }
+
+  &--7 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  &--dt7 {
+    @include desktop {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
   }
 
   &--9 {

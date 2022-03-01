@@ -61,6 +61,23 @@
     }
   }
 }
+
+.u-flex-flow--wrap {
+  flex-flow: wrap;
+
+  &-tb {
+    @include tablet {
+      flex-flow: wrap;
+    }
+  }
+
+  &-dt {
+    @include desktop {
+      flex-flow: wrap;
+    }
+  }
+}
+
 .u-flex-column-wrap {
   flex-flow: column wrap;
 
@@ -69,4 +86,40 @@
       flex-flow: column wrap;
     }
   }
+}
+.u-flex-order {
+  &--1 {
+    order: 1;
+    flex: 1 0 100%;
+  }
+  &--2 {
+    order: 2;
+    flex: 1 0 100%;
+  }
+  &--3 {
+    order: 3;
+    flex: 1 0 100%;
+  }
+
+  &-dt {
+    @include desktop {
+      &--1 {
+        order: 1;
+        flex: 1 0 50%;
+      }
+      &--2 {
+        order: 2;
+        flex: 1 0 50%;
+      }
+      &--3 {
+        order: 3;
+        flex: 1 0 100%;
+      }
+    }
+  }
+}
+
+.active {
+  order: -1;
+  flex: 1 0 100%;
 }

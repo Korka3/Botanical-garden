@@ -53,7 +53,7 @@ a:hover {
   padding: 0;
 }
 @media (min-width: 1400px) {
-  .o-col--gt-no-padding {
+  .o-col--dt-no-padding {
     padding: 0;
   }
 }
@@ -63,19 +63,47 @@ a:hover {
     max-width: 50%;
   }
 }
+@media (min-width: 1400px) {
+  .o-col--dt55 {
+    flex: 0 0 57%;
+    max-width: 57%;
+  }
+}
 @media (min-width: 744px) {
   .o-col--tb50 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
+@media (min-width: 1400px) {
+  .o-col--dt45 {
+    flex: 0 0 43%;
+    max-width: 43%;
+  }
+}
 .o-col--3 {
   flex: 0 0 25%;
   max-width: 25%;
 }
+@media (min-width: 1400px) {
+  .o-col--dt3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
 .o-col--4 {
   flex: 0 0 33%;
   max-width: 33%;
+}
+.o-col--7 {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+@media (min-width: 1400px) {
+  .o-col--dt7 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
 }
 .o-col--9 {
   flex: 0 0 75%;
@@ -85,8 +113,6 @@ a:hover {
 .o-container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   max-width: 100%;
 }
 @media (min-width: 744px) {
@@ -233,6 +259,26 @@ a:hover {
     text-align: left;
   }
 }
+.c-heading--level2 {
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  font-size: 2.188rem;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+@media (min-width: 744px) {
+  .c-heading--level2 {
+    font-size: 2.813rem;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1400px) {
+  .c-heading--level2 {
+    font-size: 2.813rem;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+}
 
 .c-list__unstyled {
   list-style-type: none;
@@ -300,12 +346,17 @@ a:hover {
   .t-main {
     margin-top: 170px;
     margin-bottom: 100px;
-    padding-top: 70px;
+    padding-top: 120px;
     padding-bottom: 105px;
   }
 }
 .t-main__img {
   margin-bottom: 16px;
+}
+@media (min-width: 1400px) {
+  .t-main__img {
+    margin-bottom: 89px;
+  }
 }
 .t-main p {
   font-size: 1rem;
@@ -315,6 +366,19 @@ a:hover {
   .t-main p {
     font-size: 1.25rem;
     line-height: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .t-main p {
+    margin-top: 47px;
+  }
+}
+.t-main a {
+  margin-top: 20px;
+}
+@media (min-width: 1400px) {
+  .t-main a {
+    margin-top: 47px;
   }
 }
 
@@ -383,6 +447,20 @@ a:hover {
   }
 }
 
+.u-flex-flow--wrap {
+  flex-flow: wrap;
+}
+@media (min-width: 744px) {
+  .u-flex-flow--wrap-tb {
+    flex-flow: wrap;
+  }
+}
+@media (min-width: 1400px) {
+  .u-flex-flow--wrap-dt {
+    flex-flow: wrap;
+  }
+}
+
 .u-flex-column-wrap {
   flex-flow: column wrap;
 }
@@ -390,6 +468,38 @@ a:hover {
   .u-flex-column-wrap-desktop {
     flex-flow: column wrap;
   }
+}
+
+.u-flex-order--1 {
+  order: 1;
+  flex: 1 0 100%;
+}
+.u-flex-order--2 {
+  order: 2;
+  flex: 1 0 100%;
+}
+.u-flex-order--3 {
+  order: 3;
+  flex: 1 0 100%;
+}
+@media (min-width: 1400px) {
+  .u-flex-order-dt--1 {
+    order: 1;
+    flex: 1 0 50%;
+  }
+  .u-flex-order-dt--2 {
+    order: 2;
+    flex: 1 0 50%;
+  }
+  .u-flex-order-dt--3 {
+    order: 3;
+    flex: 1 0 100%;
+  }
+}
+
+.active {
+  order: -1;
+  flex: 1 0 100%;
 }
 
 .u-overflow-h {
