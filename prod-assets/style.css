@@ -49,6 +49,16 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
 }
+.o-col--tb {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.o-col--dt {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .o-col--no-padding {
   padding: 0;
 }
@@ -125,6 +135,8 @@ a:hover {
 .o-container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   max-width: 100%;
 }
 @media (min-width: 744px) {
@@ -418,6 +430,11 @@ a:hover {
     justify-content: flex-start;
   }
 }
+@media (min-width: 744px) {
+  .u-flex-start--content-tablet {
+    justify-content: flex-start;
+  }
+}
 
 .u-flex-end {
   justify-content: flex-end;
@@ -455,6 +472,16 @@ a:hover {
 }
 @media (min-width: 1400px) {
   .u-flex-direction-desktop--row {
+    flex-direction: row;
+  }
+}
+@media (min-width: 744px) {
+  .u-flex-direction-teblet--column {
+    flex-direction: column;
+  }
+}
+@media (min-width: 744px) {
+  .u-flex-direction-teblet--row {
     flex-direction: row;
   }
 }

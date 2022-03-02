@@ -3,6 +3,18 @@
   padding-left: $gutter;
   padding-right: $gutter;
 
+  &--tb {
+    width: 100%;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  &--dt {
+    width: 100%;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
   &--no-padding {
     padding: 0;
   }
