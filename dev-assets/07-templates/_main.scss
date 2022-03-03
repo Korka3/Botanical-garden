@@ -11,6 +11,25 @@
     margin-bottom: $grid-base * 5.5;
     padding-top: $grid-base * 9.6;
     padding-bottom: $grid-base * 8.8;
+
+    &::after {
+      content: "";
+      background-image: url("/images/main_after_element.png");
+      width: 342px;
+      height: 357px;
+      position: absolute;
+      right: -40px;
+      bottom: 20px;
+      z-index: 1;
+
+      @include desktop {
+        background-image: url("/images/main_after_element_dt.png");
+        width: 534px;
+        height: 462px;
+        right: -3px;
+        bottom: 237px;
+      }
+    }
   }
 
   @include desktop {
@@ -38,13 +57,14 @@
     }
 
     @include desktop {
-      margin-top: $grid-base * 4.7;
+      margin-top: $grid-base * 2.5;
     }
   }
   a {
     margin-top: $grid-base * 2;
+
     @include desktop {
-      margin-top: $grid-base * 4.7;
+      margin-top: $grid-base;
     }
   }
 }

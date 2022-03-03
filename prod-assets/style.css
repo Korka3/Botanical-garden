@@ -178,17 +178,18 @@ a:hover {
 }
 
 .c-btn {
+  align-items: baseline;
   display: inline-block;
   font-family: "Roboto";
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 16.41px;
+  margin-bottom: 10px;
+  letter-spacing: 0.0625rem;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   position: relative;
-  align-items: baseline;
-  margin-bottom: 10px;
 }
 .c-btn__primary, .c-btn__secondary {
   padding: 13px 28px;
@@ -365,6 +366,25 @@ a:hover {
     padding-top: 96px;
     padding-bottom: 88px;
   }
+  .t-main::after {
+    content: "";
+    background-image: url("/images/main_after_element.png");
+    width: 342px;
+    height: 357px;
+    position: absolute;
+    right: -40px;
+    bottom: 20px;
+    z-index: 1;
+  }
+}
+@media (min-width: 744px) and (min-width: 1400px) {
+  .t-main::after {
+    background-image: url("/images/main_after_element_dt.png");
+    width: 534px;
+    height: 462px;
+    right: -3px;
+    bottom: 237px;
+  }
 }
 @media (min-width: 1400px) {
   .t-main {
@@ -394,7 +414,7 @@ a:hover {
 }
 @media (min-width: 1400px) {
   .t-main p {
-    margin-top: 47px;
+    margin-top: 25px;
   }
 }
 .t-main a {
@@ -402,7 +422,7 @@ a:hover {
 }
 @media (min-width: 1400px) {
   .t-main a {
-    margin-top: 47px;
+    margin-top: 10px;
   }
 }
 

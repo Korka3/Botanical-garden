@@ -1,15 +1,16 @@
 .c-btn {
+  align-items: baseline;
   display: inline-block;
   font-family: $font-family-1;
   font-size: $font-size-9;
   font-weight: 700;
   line-height: 16.41px;
+  margin-bottom: $grid-base;
+  letter-spacing: $letter-spacing-1;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   position: relative;
-  align-items: baseline;
-  margin-bottom: $grid-base;
 
   &__primary,
   &__secondary {
