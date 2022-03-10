@@ -53,6 +53,20 @@
     flex-direction: row;
   }
 
+  &-tablet {
+    &--column {
+      @include tablet {
+        flex-direction: column;
+      }
+    }
+
+    &--row {
+      @include tablet {
+        flex-direction: row;
+      }
+    }
+  }
+
   &-desktop {
     &--column {
       @include desktop {
@@ -62,20 +76,6 @@
 
     &--row {
       @include desktop {
-        flex-direction: row;
-      }
-    }
-  }
-
-  &-teblet {
-    &--column {
-      @include tablet {
-        flex-direction: column;
-      }
-    }
-
-    &--row {
-      @include tablet {
         flex-direction: row;
       }
     }

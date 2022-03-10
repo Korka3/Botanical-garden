@@ -41,4 +41,13 @@
       text-align: left;
     }
   }
+
+  &--level3 {
+    color: $primary;
+    font-family: $font-family-2;
+    font-size: $font-size-5;
+    line-height: 110%;
+    margin-bottom: $grid-base * 1.2;
+    margin-top: $grid-base * 2;
+  }
 }

@@ -304,6 +304,14 @@ a:hover {
     text-align: left;
   }
 }
+.c-heading--level3 {
+  color: #475f45;
+  font-family: "Libre Baskerville";
+  font-size: 1.438rem;
+  line-height: 110%;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
 
 .c-list__unstyled {
   list-style-type: none;
@@ -426,12 +434,58 @@ a:hover {
   }
 }
 
+.t-news {
+  margin-top: 70px;
+}
+@media (min-width: 1400px) {
+  .t-news {
+    margin-top: 100px;
+  }
+}
+.t-news p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #414840;
+  line-height: 24px;
+  text-align: center;
+}
+.t-news__article {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.t-news__post-date {
+  border-bottom: solid #e4e4e4 1px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: italic;
+  color: #414840;
+  line-height: 24px;
+  margin-top: 12px;
+  text-align: center;
+}
+@media (min-width: 744px) {
+  .t-news__top-news {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1400px) {
+  .t-news__top-news {
+    flex-direction: column;
+  }
+}
+
 .u-bg-white {
   background-color: #ffffff;
 }
 
 .u-white {
   color: #ffffff;
+}
+
+.u-header-text {
+  color: #343d33;
 }
 
 .u-font-bold {
@@ -485,6 +539,16 @@ a:hover {
 .u-flex-direction--row {
   flex-direction: row;
 }
+@media (min-width: 744px) {
+  .u-flex-direction-tablet--column {
+    flex-direction: column;
+  }
+}
+@media (min-width: 744px) {
+  .u-flex-direction-tablet--row {
+    flex-direction: row;
+  }
+}
 @media (min-width: 1400px) {
   .u-flex-direction-desktop--column {
     flex-direction: column;
@@ -492,16 +556,6 @@ a:hover {
 }
 @media (min-width: 1400px) {
   .u-flex-direction-desktop--row {
-    flex-direction: row;
-  }
-}
-@media (min-width: 744px) {
-  .u-flex-direction-teblet--column {
-    flex-direction: column;
-  }
-}
-@media (min-width: 744px) {
-  .u-flex-direction-teblet--row {
     flex-direction: row;
   }
 }
@@ -641,4 +695,12 @@ a:hover {
 
 .u-pr-3 {
   padding-right: 30px;
+}
+
+.u-lsc {
+  letter-spacing: -0.1rem;
+}
+
+.u-ls-1 {
+  letter-spacing: 0.0625rem;
 }
