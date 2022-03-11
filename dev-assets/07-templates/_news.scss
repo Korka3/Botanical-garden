@@ -1,8 +1,35 @@
 .t-news {
+  background-color: $gray-light;
   margin-top: $grid-base * 7;
 
   @include desktop {
     margin-top: $grid-base * 10;
+  }
+
+  &__header {
+    position: relative;
+    margin-bottom: $grid-base * 3;
+  }
+
+  &__top-news {
+    @include tablet {
+      width: 60%;
+    }
+
+    @include desktop {
+      width: 100%;
+    }
+  }
+
+  &__decor {
+    @include tablet {
+      border-bottom: 2px solid $primary;
+      bottom: 2.5;
+      display: inline-block;
+      margin-right: $grid-base * 2;
+      width: 131px;
+      position: relative;
+    }
   }
 
   p {
@@ -12,11 +39,10 @@
     color: $text;
     line-height: 24px;
     text-align: center;
-  }
 
-  &__article {
-    margin-top: $grid-base * 2.4;
-    margin-bottom: $grid-base * 2;
+    @include tablet {
+      text-align: left;
+    }
   }
 
   &__post-date {
@@ -31,6 +57,13 @@
     text-align: center;
   }
 
+  &__border {
+    border-bottom: 1px solid $gray-dark;
+    margin: $grid-base * 2 0 $grid-base * 2 0;
+    max-width: 100%;
+    //margin-bottom: $grid-base * 2;
+  }
+
   //&__post-border {
   //   color: $gray-light;
   //   width: 100%;
@@ -39,12 +72,12 @@
 
   //  }
 
-  &__top-news {
-    @include tablet {
-      flex-direction: row;
-    }
-    @include desktop {
-      flex-direction: column;
-    }
-  }
+  // &__top-news {
+  //   @include tablet {
+  //     flex-direction: row;
+  //   }
+  //   @include desktop {
+  //     flex-direction: column;
+  //   }
+  // }
 }

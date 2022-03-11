@@ -49,5 +49,9 @@
     line-height: 110%;
     margin-bottom: $grid-base * 1.2;
     margin-top: $grid-base * 2;
+
+    @include tablet {
+      text-align: left;
+    }
   }
 }

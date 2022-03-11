@@ -26,6 +26,14 @@
   margin-top: $grid-base * 3;
 }
 
+.u-pr-0 {
+  padding-right: 0;
+
+  &--tb {
+    padding-right: 0;
+  }
+}
+
 .u-pr-1 {
   padding-right: $grid-base;
 }

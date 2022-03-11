@@ -5,14 +5,14 @@
 .u-flex-start--content {
   justify-content: flex-start;
 
-  &-desktop {
-    @include desktop {
+  &-tablet {
+    @include tablet {
       justify-content: flex-start;
     }
   }
 
-  &-tablet {
-    @include tablet {
+  &-desktop {
+    @include desktop {
       justify-content: flex-start;
     }
   }
