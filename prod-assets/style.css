@@ -298,11 +298,6 @@ a:hover {
   list-style-type: none;
 }
 
-.t-site-header {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .t-intro__text {
   text-align: center;
   padding-bottom: 20px;
@@ -476,6 +471,11 @@ a:hover {
   border-bottom: 1px solid #666;
   margin: 20px 0 20px 0;
   max-width: 100%;
+}
+
+.t-site-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .u-bg-white {
