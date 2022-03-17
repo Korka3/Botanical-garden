@@ -1,0 +1,46 @@
+.t-site-footer {
+  background-color: $text;
+  color: $white;
+  margin-top: $grid-base * 5;
+  padding-top: $grid-base * 5;
+  padding-bottom: $grid-base * 5;
+  text-align: center;
+
+  @include tablet {
+    padding-top: $grid-base * 10;
+    padding-bottom: $grid-base * 10;
+    text-align: left;
+  }
+
+  p {
+    color: $white;
+    font-size: $font-size-9;
+    margin-bottom: $grid-base * 1.5;
+    margin-top: $grid-base * 1.5;
+
+    @include tablet {
+      text-align: left;
+    }
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $gray-light;
+      transition: 0.5s;
+    }
+  }
+
+  &__icon {
+    min-width: 22px;
+    //margin-top: $grid-base;
+    //margin-bottom: $grid-base;
+    margin: $grid-base * 1.5;
+
+    &:hover {
+      opacity: 0.8;
+      transition: 0.3s;
+    }
+  }
+}

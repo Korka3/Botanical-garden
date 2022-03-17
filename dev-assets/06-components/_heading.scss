@@ -1,12 +1,12 @@
 .c-heading {
   text-align: center;
   text-transform: capitalize;
+  font-family: $font-family-2;
   font-weight: 400;
   letter-spacing: $letter-spacing-1;
 
   &--level1 {
     color: $header-text;
-    font-family: $font-family-2;
     font-size: $font-size-3;
     line-height: 110%;
     margin-bottom: $grid-base * 2;
@@ -25,7 +25,6 @@
 
   &--level2 {
     color: $white;
-    font-family: $font-family-2;
     font-size: $font-size-3;
     line-height: 110%;
     margin-bottom: $grid-base * 2;
@@ -44,7 +43,6 @@
 
   &--level3 {
     color: $primary;
-    font-family: $font-family-2;
     font-size: $font-size-5;
     line-height: 110%;
     margin-bottom: $grid-base * 1.2;
@@ -52,6 +50,18 @@
 
     @include tablet {
       text-align: left;
+    }
+  }
+
+  &--level4 {
+    color: $white;
+    font-size: $font-size-8;
+    margin-bottom: $grid-base * 1.5;
+    margin-top: $grid-base * 1.5;
+
+    @include tablet {
+      text-align: left;
+      margin-top: $grid-base;
     }
   }
 }

@@ -2,6 +2,10 @@
   align-items: flex-start; //wyrównanie do góry
 }
 
+.u-flex-center {
+  justify-content: center;
+}
+
 .u-flex-start--content {
   justify-content: flex-start;
 
@@ -24,10 +28,6 @@
 
 .u-flex-space-between {
   justify-content: space-between; //wyrównuje element jeden do prawej drugi do lewej strony
-}
-
-.u-flex-center {
-  justify-content: center;
 }
 
 .u-flex-stretch {

@@ -14,6 +14,15 @@
   margin-bottom: $grid-base * 5;
 }
 
+.u-mt-0 {
+  margin-top: 0;
+
+  @include tablet {
+    &--tb {
+      margin-top: 0;
+    }
+  }
+}
 .u-mt-1 {
   margin-top: $grid-base;
 }
@@ -29,23 +38,62 @@
 .u-pr-0 {
   padding-right: 0;
 
-  &--tb {
-    padding-right: 0;
+  @include tablet {
+    &--tb {
+      padding-right: 0;
+    }
   }
 }
 
 .u-pr-1 {
   padding-right: $grid-base;
-}
 
+  @include tablet {
+    &--tb {
+      padding-right: $grid-base;
+    }
+  }
+}
 .u-pr-2 {
   padding-right: $grid-base * 2;
+  @include tablet {
+    &--tb {
+      padding-right: $grid-base * 2;
+    }
+  }
 }
-
 .u-pr-3 {
   padding-right: $grid-base * 3;
+
+  @include tablet {
+    &--tb {
+      padding-right: $grid-base * 3;
+    }
+  }
 }
 
+.u-pr-10 {
+  padding-right: $grid-base * 10;
+}
+
+.u-pl-10 {
+  padding-left: $grid-base * 10;
+  @include tablet {
+    &--tb {
+      padding-left: $grid-base * 10;
+    }
+  }
+}
+
+.u-padding-0 {
+  padding: 0;
+
+  @include tablet {
+    &--tb {
+      padding: 0;
+    }
+  }
+}
 .u-lsc {
   letter-spacing: $letter-spacing-condensed;
 }
