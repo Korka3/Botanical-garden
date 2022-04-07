@@ -1,0 +1,17 @@
+.c-nav {
+  &__item {
+    color: $text;
+    font-family: $font-family-1;
+    margin-right: $grid-base;
+    margin-left: $grid-base;
+    font-weight: 700;
+    padding-top: $grid-base * 1.5;
+    padding-bottom: $grid-base * 1.5;
+    text-transform: uppercase;
+
+    &--border {
+      border: solid $primary 1px;
+      color: $primary;
+    }
+  }
+}

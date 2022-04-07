@@ -2,4 +2,16 @@
   //display: inline;
   padding-top: $gutter;
   padding-bottom: $gutter;
+
+  &__desktop-menu--right {
+    @include desktop {
+      display: none;
+    }
+  }
+  &__desktop-menu {
+    display: none;
+    @include desktop {
+      display: inline-block;
+    }
+  }
 }

@@ -318,6 +318,21 @@ a:hover {
   }
 }
 
+.c-nav__item {
+  color: #414840;
+  font-family: "Roboto";
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.c-nav__item--border {
+  border: solid #475f45 1px;
+  color: #475f45;
+}
+
 .t-site-footer {
   background-color: #414840;
   color: #ffffff;
@@ -538,6 +553,19 @@ a:hover {
 .t-site-header {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+@media (min-width: 1400px) {
+  .t-site-header__desktop-menu--right {
+    display: none;
+  }
+}
+.t-site-header__desktop-menu {
+  display: none;
+}
+@media (min-width: 1400px) {
+  .t-site-header__desktop-menu {
+    display: inline-block;
+  }
 }
 
 .t-site-bottom {
