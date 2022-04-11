@@ -1,0 +1,39 @@
+// //.t-mobile-menu {
+//   background-color: $primary;
+//   display: grid;
+//   padding-top: $grid-base * 3;
+//   text-align: center;
+
+//   &__title {
+//     color: $white;
+//     font-family: $font-family-2;
+//     font-weight: 400;
+//     font-size: $font-size-5;
+//     text-transform: capitalize;
+//     margin-bottom: $grid-base * 10;
+
+//     @include tablet {
+//       font-size: $font-size-5;
+//       margin-bottom: $grid-base * 7;
+//     }
+//   }
+
+//   &__item {
+//     color: $white;
+//     font-family: $font-family-1;
+//     font-size: $font-size-9;
+//     letter-spacing: $letter-spacing-1;
+//     text-transform: uppercase;
+//     margin-bottom: $grid-base * 4;
+
+//     &--special {
+//       color: $white;
+//       font-weight: 700;
+
+//       &--border {
+//         border: solid $white 1px;
+//         padding: $grid-base * 0.5;
+//       }
+//     }
+//   }
+// }

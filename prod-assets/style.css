@@ -317,6 +317,10 @@ a:hover {
     text-align: left;
   }
 }
+.c-list__item--mobile {
+  margin-bottom: 40px;
+  text-align: center;
+}
 
 .c-nav__item {
   color: #414840;
@@ -324,13 +328,50 @@ a:hover {
   margin-right: 10px;
   margin-left: 10px;
   font-weight: 700;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 7px;
   text-transform: uppercase;
 }
 .c-nav__item--border {
   border: solid #475f45 1px;
   color: #475f45;
+}
+.c-nav__mobile {
+  background-color: #475f45;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.c-nav__mobile--title {
+  color: #ffffff;
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-size: 1.438rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 100px;
+}
+@media (min-width: 744px) {
+  .c-nav__mobile--title {
+    font-size: 1.438rem;
+    margin-bottom: 70px;
+  }
+}
+.c-nav__mobile--item {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.c-nav__mobile--item-special {
+  color: #ffffff;
+  font-weight: 700;
+}
+.c-nav__mobile--item-special-border {
+  border: solid #ffffff 1px;
+  padding: 5px;
 }
 
 .t-site-footer {
@@ -564,7 +605,8 @@ a:hover {
 }
 @media (min-width: 1400px) {
   .t-site-header__desktop-menu {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
   }
 }
 

@@ -5,13 +5,57 @@
     margin-right: $grid-base;
     margin-left: $grid-base;
     font-weight: 700;
-    padding-top: $grid-base * 1.5;
-    padding-bottom: $grid-base * 1.5;
+    padding: $grid-base * 1.5 $grid-base * 0.7;
+    //padding-top: $grid-base * 1.5;
+    //padding-bottom: $grid-base * 1.5;
     text-transform: uppercase;
 
     &--border {
       border: solid $primary 1px;
       color: $primary;
+    }
+  }
+
+  &__mobile {
+    background-color: $primary;
+
+    padding-top: $grid-base * 3;
+    padding-bottom: $grid-base * 3;
+    text-align: center;
+
+    &--title {
+      color: $white;
+      font-family: $font-family-2;
+      font-weight: 400;
+      font-size: $font-size-5;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: $grid-base * 10;
+
+      @include tablet {
+        font-size: $font-size-5;
+        margin-bottom: $grid-base * 7;
+      }
+    }
+
+    &--item {
+      color: $white;
+      font-family: $font-family-1;
+      font-size: $font-size-9;
+      letter-spacing: $letter-spacing-1;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: $grid-base * 4;
+
+      &-special {
+        color: $white;
+        font-weight: 700;
+
+        &-border {
+          border: solid $white 1px;
+          padding: $grid-base * 0.5;
+        }
+      }
     }
   }
 }

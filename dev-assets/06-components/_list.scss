@@ -11,5 +11,10 @@
     @include tablet {
       text-align: left;
     }
+
+    &--mobile {
+      margin-bottom: $grid-base * 4;
+      text-align: center;
+    }
   }
 }

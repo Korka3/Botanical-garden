@@ -11,7 +11,8 @@
   &__desktop-menu {
     display: none;
     @include desktop {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
     }
   }
 }
