@@ -5,6 +5,9 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="/favicon.ico" type="image" />
 
+  <script src="jquery-3.6.0.min.js"></script>
+
+  <script src="scripts.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300;400;700&display=swap"
@@ -42,7 +45,10 @@
         </div>
 
         <div class="o-col o-col--3 u-text-right t-site-header__desktop-menu--right">
-          <a href="#"><img src="images/icon_menu.svg" alt="rozwiń menu"></a>
+          <button class="c-hamburger"></button>
+
+          <!--<a href="#"><img class="menu-button" src="images/icon_menu.svg" alt="rozwiń menu"></a>-->
+          <!-- zrobic a jako button -->
         </div>
 
 
@@ -51,6 +57,7 @@
     </div>
   </section>
   <!--Sekcja menu na urzadzenia mobilne-->
+
   <section class="c-nav__mobile">
     <ul class="c-list c-list__unstyled">
       <li class="c-list__item c-nav__mobile--title"><a>menu</a></li>

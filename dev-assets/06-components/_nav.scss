@@ -1,13 +1,15 @@
 .c-nav {
   &__item {
     color: $text;
+    font-weight: 700;
     font-family: $font-family-1;
     margin-right: $grid-base;
     margin-left: $grid-base;
-    font-weight: 700;
+
     padding: $grid-base * 1.5 $grid-base * 0.7;
     //padding-top: $grid-base * 1.5;
     //padding-bottom: $grid-base * 1.5;
+
     text-transform: uppercase;
 
     &--border {
@@ -18,10 +20,18 @@
 
   &__mobile {
     background-color: $primary;
-
+    display: block;
     padding-top: $grid-base * 3;
     padding-bottom: $grid-base * 3;
     text-align: center;
+
+    //&--ontop {display: block;
+
+    //}
+
+    @include desktop {
+      display: none;
+    }
 
     &--title {
       color: $white;
@@ -45,6 +55,7 @@
       letter-spacing: $letter-spacing-1;
       text-transform: uppercase;
       text-align: center;
+      text-decoration: none;
       margin-bottom: $grid-base * 4;
 
       &-special {

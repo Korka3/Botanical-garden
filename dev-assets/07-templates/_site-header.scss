@@ -13,6 +13,24 @@
     @include desktop {
       display: inline-flex;
       align-items: center;
+      text-decoration: none;
+
+      a {
+        text-decoration: none;
+        &:hover {
+          color: $text;
+          text-decoration: underline 3px $primary solid;
+          border-radius: 10%;
+        }
+      }
     }
   }
+}
+
+.menu {
+  display: none;
+}
+
+.menu.isVisible {
+  display: block;
 }
