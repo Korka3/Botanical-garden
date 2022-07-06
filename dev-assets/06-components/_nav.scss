@@ -20,14 +20,14 @@
 
   &__mobile {
     background-color: $primary;
-    display: block;
+    display: none;
     padding-top: $grid-base * 3;
     padding-bottom: $grid-base * 3;
     text-align: center;
 
-    //&--ontop {display: block;
-
-    //}
+    &--ontop {
+      display: block;
+    }
 
     @include desktop {
       display: none;

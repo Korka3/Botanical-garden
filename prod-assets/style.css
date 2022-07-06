@@ -310,6 +310,8 @@ a:hover {
   background: transparent;
   border: 0;
   border-top: 4px solid #343d33;
+  cursor: pointer;
+  margin-bottom: 30px;
   position: relative;
   transition: 0.2s transform linear;
 }
@@ -329,12 +331,11 @@ a:hover {
   transition: 0.2s transform linear;
 }
 
-.c-hamburger:focus {
+.c-hamburger--active {
   transform: rotate(45deg) translateY(5px);
   border: none;
 }
-
-.c-hamburger:focus::after {
+.c-hamburger--active:after {
   transform: rotate(-90deg) translateX(-10px);
 }
 
@@ -372,10 +373,13 @@ a:hover {
 }
 .c-nav__mobile {
   background-color: #475f45;
-  display: block;
+  display: none;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+}
+.c-nav__mobile--ontop {
+  display: block;
 }
 @media (min-width: 1400px) {
   .c-nav__mobile {
@@ -444,6 +448,7 @@ a:hover {
 }
 .t-site-footer a {
   color: #ffffff;
+  display: inline-block;
 }
 .t-site-footer a:hover {
   color: #e4e4e4;
@@ -972,4 +977,14 @@ a:hover {
 
 .u-ls-1 {
   letter-spacing: 0.0625rem;
+}
+
+.u-visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
 }

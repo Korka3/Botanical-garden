@@ -6,6 +6,7 @@
   &__desktop-menu--right {
     @include desktop {
       display: none;
+      
     }
   }
   &__desktop-menu {
