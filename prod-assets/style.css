@@ -377,6 +377,7 @@ a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .c-nav__mobile--ontop {
   display: block;
@@ -521,8 +522,8 @@ a:hover {
     width: 342px;
     height: 357px;
     position: absolute;
-    right: -40px;
-    bottom: 20px;
+    right: 0;
+    bottom: 1px;
     z-index: 1;
   }
 }
@@ -531,7 +532,7 @@ a:hover {
     background-image: url("/images/main_after_element_dt.png");
     width: 534px;
     height: 462px;
-    right: -3px;
+    right: 0;
     bottom: 237px;
   }
 }

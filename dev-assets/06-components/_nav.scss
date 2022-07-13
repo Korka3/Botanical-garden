@@ -7,9 +7,6 @@
     margin-left: $grid-base;
 
     padding: $grid-base * 1.5 $grid-base * 0.7;
-    //padding-top: $grid-base * 1.5;
-    //padding-bottom: $grid-base * 1.5;
-
     text-transform: uppercase;
 
     &--border {
@@ -24,6 +21,7 @@
     padding-top: $grid-base * 3;
     padding-bottom: $grid-base * 3;
     text-align: center;
+    margin-bottom: $grid-base *3;
 
     &--ontop {
       display: block;

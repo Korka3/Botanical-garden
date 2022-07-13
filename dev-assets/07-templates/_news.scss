@@ -61,23 +61,5 @@
     border-bottom: 1px solid $gray-dark;
     margin: $grid-base * 2 0 $grid-base * 2 0;
     max-width: 100%;
-    //margin-bottom: $grid-base * 2;
   }
-
-  //&__post-border {
-  //   color: $gray-light;
-  //   width: 100%;
-  //   height: 1px;
-  //   margin-bottom: $grid-base * 2;
-
-  //  }
-
-  // &__top-news {
-  //   @include tablet {
-  //     flex-direction: row;
-  //   }
-  //   @include desktop {
-  //     flex-direction: column;
-  //   }
-  // }
 }

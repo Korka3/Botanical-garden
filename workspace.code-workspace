@@ -1,16 +1,3 @@
 {
-	"folders": [
-		{
-			"path": "dev-assets"
-		},
-		{
-			"path": "images"
-		},
-		{
-			"path": "node_modules"
-		},
-		{
-			"path": "prod-assets"
-		}
-	]
+  "folders": []
 }
